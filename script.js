@@ -52,7 +52,7 @@
 			return new Promise((resolve,reject)=>{
 				setTimeout(()=>{
 					value4 = value4+10;
-					div.textContent = `Result: ${value4}`;
+					div.textContent = `Final Result: ${value4}`;
 					resolve(value4);
 				},1000)
 			})
